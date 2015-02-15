@@ -1,0 +1,86 @@
+a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+body
+{
+	margin: 0;
+}
+
+#head-wrapper
+{
+	height: 40px;
+	width: 100%;
+	display: block;
+
+}
+
+.navigation ul {
+	margin-top: 0;
+	position: relative;
+	float: right;
+	list-style-type: none;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#content-wrapper
+{
+	display: block;
+	height: 2000px;
+	width: 100%;
+}
+
+#main
+{
+}
+
+#invitation {
+	position: relative;
+	background: url('res/img/invitation.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 727px;
+}
+
+#invitation-text 
+{
+	background-color: white;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	word-wrap: break-word;
+}
+
+
+#timer-wrapper {
+	position: absolute;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+}
+
+#footer-wrapper
+{
+	display: block;
+	height: 40px;
+	width: 100%;
+}
+
